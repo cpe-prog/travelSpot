@@ -15,7 +15,7 @@ export default function Example() {
 
 	return (
 		<div className="bg-white">
-			<header className="absolute inset-x-0 top-0 z-50">
+			<header className="fixed bg-inherit inset-x-0 top-0 z-50">
 				<nav
 					className="flex items-center justify-between p-6 lg:px-8"
 					aria-label="Global"
@@ -52,12 +52,26 @@ export default function Example() {
 						))}
 					</div>
 					<div className="hidden lg:flex lg:flex-1 lg:justify-end">
-						<a
-							href="#"
-							className="text-sm font-semibold leading-6 text-gray-900"
-						>
-							Log in <span aria-hidden="true">&rarr;</span>
-						</a>
+						<div className="hidden lg:flex m">
+							<button className="mr-8">
+								<svg
+									className="w-6 h-6"
+									aria-hidden="true"
+									xmlns="http://www.w3.org/2000/svg"
+									fill="currentColor"
+									viewBox="0 0 18 20"
+								>
+									<path d="M17.8 13.75a1 1 0 0 0-.859-.5A7.488 7.488 0 0 1 10.52 2a1 1 0 0 0 0-.969A1.035 1.035 0 0 0 9.687.5h-.113a9.5 9.5 0 1 0 8.222 14.247 1 1 0 0 0 .004-.997Z" />
+								</svg>
+							</button>
+
+							<a
+								href="#"
+								className="text-sm font-semibold leading-6 text-blue-600 font-sans"
+							>
+								Log in <span aria-hidden="true">&rarr;</span>
+							</a>
+						</div>
 					</div>
 				</nav>
 				<Dialog
