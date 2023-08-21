@@ -33,8 +33,10 @@ export default function Example() {
 					</div>
 					<div className="mr-20">
 						<input
-							className="border-solid border-2 border-blue-500 rounded-md text-left font-medium text-gray-400 text-md p-2 outline-none h-10 hover:border-gray-400"
+							className="border-solid border-2 border-blue-500 rounded-md text-left font-medium text-gray-400 text-md p-2 outline-none h-9 hover:border-gray-400"
 							type="search"
+							placeholder="Search"
+							aria-label="Search"
 						/>
 					</div>
 					<div className="flex lg:hidden">
