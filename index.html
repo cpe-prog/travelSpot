@@ -7,43 +7,11 @@
 		<title>Travel Spot</title>
 	</head>
 	<body>
-		<style>
-			* {
-				padding: 0;
-				margin: 0;
-			}
-			body {
-				background-color: #302f2f;
-			}
-			.network-error {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				height: 500px;
-				width: auto;
-			}
-			p {
-				color: white;
-				font-size: medium;
-				margin-right: 1rem;
-			}
-			button {
-				background-color: #82b8eb;
-				font-size: small;
-				font-style: normal;
-				color: black;
-				width: 5rem;
-				height: 2rem;
-				border: none;
-				border-radius: 5px;
-				cursor: pointer;
-			}
-		</style>
-		<div class="network-error">
-			<p>network error</p>
-			<button>Reload</button>
+		<div id="root">
+			An unhandled error has occurred.
+			<a class="reload" href="">Reload</a>
+			<a class="dismiss">🗙</a>
 		</div>
-		<div id="root"></div>
 		<script type="module" src="/src/main.jsx"></script>
 	</body>
 </html>
