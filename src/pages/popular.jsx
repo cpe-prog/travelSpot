@@ -1,1 +1,3 @@
-<h1>Welcome to popular page</h1>;
+export const popular = () => {
+	return <div>popular</div>;
+};
