@@ -1,1 +1,5 @@
-<h1>Welcome to about page</h1>;
+import React from 'react';
+
+export const about = () => {
+	return <div>about</div>;
+};

@@ -1,1 +1,5 @@
-<h1>Welcome to spot page</h1>;
+import React from 'react';
+
+export const spot = () => {
+	return <div>spot</div>;
+};

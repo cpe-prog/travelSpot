@@ -1,1 +1,5 @@
-<h1>Welcome to destination page</h1>;
+import React from 'react';
+
+export const destination = () => {
+	return <div>destination</div>;
+};

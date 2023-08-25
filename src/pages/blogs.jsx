@@ -1,1 +1,5 @@
-<h1>welcome to blog page</h1>;
+import React from 'react';
+
+export const blogs = () => {
+	return <div>blogs</div>;
+};
