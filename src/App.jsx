@@ -5,11 +5,11 @@ import './styles/tailwind.css';
 
 const navigation = [
 	{ name: 'Home', href: '#' },
-	{ name: 'Popular', href: '#' },
-	{ name: 'Destination', href: '#' },
-	{ name: 'Spot', href: '#' },
-	{ name: 'Blogs', href: '#' },
-	{ name: 'About', href: '#' },
+	{ name: 'Popular', href: 'popular' },
+	{ name: 'Destination', href: 'destination' },
+	{ name: 'Spot', href: 'spot' },
+	{ name: 'Blogs', href: 'blogs' },
+	{ name: 'About', href: 'spot' },
 ];
 
 export default function Example() {
