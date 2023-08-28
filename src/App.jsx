@@ -1,10 +1,12 @@
+import { Route } from 'react-router-dom';
 import Home from './pages/home';
-import './styles/tailwind.css';
 
 export const App = () => {
 	return (
-		<body>
-			<Home></Home>
-		</body>
+		<div>
+			<Route path="/home">
+				<Home />
+			</Route>
+		</div>
 	);
 };
