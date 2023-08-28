@@ -1,12 +1,15 @@
+import React from 'react';
 import { Route } from 'react-router-dom';
-import Home from './pages/home';
+import Home from './home';
 
-export const App = () => {
+const App = () => {
 	return (
 		<div>
 			<Route path="/home">
-				<Home />
+				<Home> Hello</Home>
 			</Route>
 		</div>
 	);
 };
+
+export default App;
