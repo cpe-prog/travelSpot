@@ -1,3 +1,3 @@
-export const destination = () => {
+export const Destination = () => {
 	return <div>destination</div>;
 };

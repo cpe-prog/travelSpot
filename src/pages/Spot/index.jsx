@@ -1,3 +1,3 @@
-export const spot = () => {
+export const Spot = () => {
 	return <div>spot</div>;
 };

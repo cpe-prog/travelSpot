@@ -1,3 +1,3 @@
-export const popular = () => {
+export const Popular = () => {
 	return <div>popular</div>;
 };
